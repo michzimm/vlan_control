@@ -55,7 +55,7 @@ while True:
         print ("Invalid option entered, please retry...")
 
 while True:
-    file_option = input("Would you like to create a single network or use a file for multiple networks? [ single|file ]: ")
+    file_option = input("Would you like to perform the action on a single network or use a file for multiple networks? [ single|file ]: ")
     if file_option in ("single","Single","SINGLE"):
         vlan_file = ""
         break
